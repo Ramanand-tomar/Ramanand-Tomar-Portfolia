@@ -1,73 +1,83 @@
-# Welcome to your Lovable project
+# Ramanand Tomar — Portfolio
 
-## Project info
+A modern personal portfolio website built with React, TypeScript, Vite, Tailwind CSS, and shadcn/ui.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+## About the project
 
-## How can I edit this code?
+This portfolio showcases Ramanand Tomar's work, skills, experience, and contact information through a responsive and accessible web experience.
 
-There are several ways of editing your application.
+## Tech stack
 
-**Use Lovable**
+- [React](https://react.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Vite](https://vitejs.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [shadcn/ui](https://ui.shadcn.com/)
+- [React Router](https://reactrouter.com/)
+- [Framer Motion](https://motion.dev/)
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+## Getting started
 
-Changes made via Lovable will be committed automatically to this repo.
+### Prerequisites
 
-**Use your preferred IDE**
+- [Node.js](https://nodejs.org/) 18 or newer
+- npm
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### Installation
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+1. Clone the repository:
 
-Follow these steps:
+   ```bash
+   git clone https://github.com/Ramanand-tomar/Ramanand-Tomar-Portfolia.git
+   ```
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+2. Move into the project directory:
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+   ```bash
+   cd Ramanand-Tomar-Portfolia
+   ```
 
-# Step 3: Install the necessary dependencies.
-npm i
+3. Install dependencies:
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+5. Open the local URL shown in your terminal, usually `http://localhost:5173`.
+
+## Available scripts
+
+| Command | Description |
+| --- | --- |
+| `npm run dev` | Start the development server with hot reload |
+| `npm run build` | Create an optimized production build |
+| `npm run build:dev` | Create a development-mode build |
+| `npm run preview` | Preview the production build locally |
+| `npm run lint` | Run ESLint |
+
+## Production build
+
+To create and preview a production build:
+
+```bash
+npm run build
+npm run preview
 ```
 
-**Edit a file directly in GitHub**
+## Deployment
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+The project can be deployed to any platform that supports Vite applications, including Vercel, Netlify, GitHub Pages, or a static hosting provider. Run `npm run build` and publish the generated `dist` directory.
 
-**Use GitHub Codespaces**
+## Repository
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+[View the source code on GitHub](https://github.com/Ramanand-tomar/Ramanand-Tomar-Portfolia)
 
-## What technologies are used for this project?
+## License
 
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+This project is maintained by Ramanand Tomar.
