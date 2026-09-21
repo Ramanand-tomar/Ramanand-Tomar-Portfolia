@@ -141,9 +141,8 @@ export const Hero = () => {
                 <ExternalLink size={18} />
               </motion.a>
               <motion.a
-                href="https://drive.google.com/file/d/1S3myPTzLVYAFdlyg712nYKZGoUXSuGa0/view?usp=drive_link"
-                target="_blank"
-                rel="noopener noreferrer"
+                href="/Ramanand_Tomar_Resume.pdf"
+                download="Ramanand_Tomar_Resume.pdf"
                 className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-xl border border-border bg-secondary/50 text-foreground font-semibold hover:bg-secondary hover:border-primary/50 transition-all duration-300"
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.98 }}
